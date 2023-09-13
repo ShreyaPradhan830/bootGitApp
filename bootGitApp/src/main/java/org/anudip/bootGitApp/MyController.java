@@ -12,5 +12,9 @@ public class MyController {
 	public String showHi() {
 		return "Hi";
 	}
+	@GetMapping("/bye")
+	public String showBye() {
+		return "Bye Bye";
+	}
 
 }
